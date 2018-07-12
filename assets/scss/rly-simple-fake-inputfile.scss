@@ -1,0 +1,33 @@
+// Prefix
+.rlysimple {
+
+	&-fakefile {
+		display: none;
+	}
+
+	&-fakediv {
+		// needed
+        overflow: hidden;
+        white-space: nowrap;
+        // needed
+
+
+        // style
+        border: 1px solid #333;
+        color: #333;
+        border-radius: 5px;
+        font-style: italic;
+        padding: 5px 15px;
+        max-width: 200px;
+        display: inline-block;
+        // style
+
+        
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+		
+	}
+
+}

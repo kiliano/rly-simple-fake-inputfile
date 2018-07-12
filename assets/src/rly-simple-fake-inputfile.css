@@ -1,0 +1,21 @@
+/* line 4, ../scss/rly-simple-fake-inputfile.scss */
+.rlysimple-fakefile {
+  display: none;
+}
+/* line 8, ../scss/rly-simple-fake-inputfile.scss */
+.rlysimple-fakediv {
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 5px;
+  font-style: italic;
+  padding: 5px 15px;
+  max-width: 200px;
+  display: inline-block;
+}
+/* line 26, ../scss/rly-simple-fake-inputfile.scss */
+.rlysimple-fakediv:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
